@@ -1,7 +1,9 @@
 import 'dart:convert';
+
+import 'package:brasil_cripto/models/coin_list_model.dart';
 import 'package:brasil_cripto/models/coin_chart_model.dart';
 import 'package:brasil_cripto/models/coin_details_model.dart';
-import 'package:brasil_cripto/models/coin_list_model.dart';
+
 import 'package:http/http.dart' as http;
 
 class CoingeckoService {

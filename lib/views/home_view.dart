@@ -1,13 +1,13 @@
-import 'package:brasil_cripto/viewmodels/home_viewmodel.dart';
-import 'package:brasil_cripto/views/favorites_view.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:fl_chart/fl_chart.dart';
+import 'package:flutter_mobx/flutter_mobx.dart';
+
+import 'package:brasil_cripto/viewmodels/home_viewmodel.dart';
 
 class HomeView extends StatelessWidget {
   final HomeViewModel homeViewModel;
 
-  HomeView({super.key, required this.homeViewModel});
+  const HomeView({super.key, required this.homeViewModel});
 
   @override
   Widget build(BuildContext context) {

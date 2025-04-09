@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import '../viewmodels/home_viewmodel.dart';
+
+import 'package:brasil_cripto/viewmodels/home_viewmodel.dart';
 
 class FavoritesView extends StatelessWidget {
   final HomeViewModel viewModel;

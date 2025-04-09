@@ -1,9 +1,8 @@
-import 'package:flutter/material.dart';
 import 'package:mobx/mobx.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../models/coin_list_model.dart';
-import '../services/coingecko_service.dart';
+import 'package:brasil_cripto/models/coin_list_model.dart';
+import 'package:brasil_cripto/services/coingecko_service.dart';
 
 part 'home_viewmodel.g.dart';
 

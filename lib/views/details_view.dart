@@ -1,9 +1,10 @@
-import 'package:brasil_cripto/models/coin_chart_model.dart';
 import 'package:flutter/material.dart';
 import 'package:fl_chart/fl_chart.dart';
-import '../models/coin_list_model.dart';
-import '../models/coin_details_model.dart';
-import '../services/coingecko_service.dart';
+
+import 'package:brasil_cripto/models/coin_list_model.dart';
+import 'package:brasil_cripto/models/coin_chart_model.dart';
+import 'package:brasil_cripto/models/coin_details_model.dart';
+import 'package:brasil_cripto/services/coingecko_service.dart';
 
 class DetailsView extends StatelessWidget {
   final CoinListModel coin;

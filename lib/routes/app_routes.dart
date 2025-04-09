@@ -1,9 +1,10 @@
-import 'package:brasil_cripto/models/coin_list_model.dart';
+import 'package:flutter/material.dart';
+
+import 'package:brasil_cripto/views/home_view.dart';
 import 'package:brasil_cripto/views/details_view.dart';
 import 'package:brasil_cripto/views/favorites_view.dart';
-import 'package:brasil_cripto/views/home_view.dart';
+import 'package:brasil_cripto/models/coin_list_model.dart';
 import 'package:brasil_cripto/viewmodels/home_viewmodel.dart';
-import 'package:flutter/material.dart';
 
 class AppRoutes {
   static const String home = '/';

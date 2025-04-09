@@ -75,7 +75,7 @@ class HomeView extends StatelessWidget {
                           coin.volume.isNaN
                               ? '0'
                               : coin.volume.toStringAsFixed(0);
-                      final sparkline = coin.sparkline; // List<double>
+                      final sparkline = coin.sparkline;
 
                       return Card(
                         margin: const EdgeInsets.symmetric(vertical: 8),

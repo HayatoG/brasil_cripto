@@ -16,7 +16,7 @@ class AppRoutes {
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
       case home:
-        sharedViewModel.loadAllCoins(); // importante carregar uma vez
+        sharedViewModel.loadAllCoins();
         return MaterialPageRoute(
           builder: (_) => HomeView(homeViewModel: sharedViewModel),
         );

@@ -42,9 +42,9 @@ abstract class _HomeViewModelBase with Store {
   Future<void> loadAllCoins() async {
     try {
       errorMessage = null;
-      final coins = await _service.getMarketCoins(); // novo endpoint
+      final coins = await _service.getMarketCoins();
       allCoins = ObservableList.of(coins);
-      await loadFavorites(); // garante que favoritos carregam juntos
+      await loadFavorites();
     } catch (e) {
       errorMessage = 'Erro ao carregar moedas: $e';
     }

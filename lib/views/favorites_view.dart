@@ -56,6 +56,9 @@ class FavoritesView extends StatelessWidget {
                     );
                   },
                 ),
+                onTap: () {
+                  Navigator.pushNamed(context, '/details', arguments: coin);
+                },
               );
             },
           );

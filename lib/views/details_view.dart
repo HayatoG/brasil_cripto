@@ -78,7 +78,10 @@ class DetailsView extends StatelessWidget {
                                 final y = entry.value.price;
                                 return FlSpot(x, y);
                               }).toList(),
-                          belowBarData: BarAreaData(show: false),
+                          belowBarData: BarAreaData(
+                            show: true,
+                            color: Colors.green.withValues(alpha: 0.1),
+                          ),
                         ),
                       ],
                     ),

@@ -1,5 +1,5 @@
 name: brasil_cripto
-description: "A new Flutter project."
+description: "App para consulta de criptomoedas usando CoinGecko API"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -40,9 +40,9 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^5.0.0
   build_runner: ^2.4.6
   mobx_codegen: ^2.3.0
+  flutter_launcher_icons: 0.14.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -54,6 +54,15 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/icon/icon.png
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
 
   # To add assets to your application, add an assets section, like this:
   # assets:

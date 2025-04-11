@@ -19,7 +19,7 @@ Permite busca por nome, favoritos com persistência local e visualização de gr
 ## 🛠️ Como rodar o projeto
 
 ### ✅ Requisitos:
-- Flutter SDK (versão 3.13+ recomendada)
+- Flutter SDK (versão 3.29.2 recomendada)
 - Dart SDK
 - Android Studio, VSCode ou outro IDE com Flutter
 
